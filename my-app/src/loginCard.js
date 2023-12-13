@@ -1,10 +1,10 @@
 import React from 'react';
 import './LoginCard.css';
-import './CompanyLogo.png';
+import CompanyImage from './CompanyLogo.png';
 const LoginCard = () => {
   return (
-    <div>
-      <img src="CompanyLogo.png" alt="" />
+    <div className='LoginPage'>
+      <img src= {CompanyImage} className="comp-image" alt=""/>
       <div className="login-card">
         <h2>Login</h2>
         <form>
