@@ -1,6 +1,6 @@
 import React from 'react';
 import './SignUpCard.css';
-import CompanyImage from './CompanyLogo.png';
+import CompanyImage from './CompanyLogo.jpeg';
 const SignUpCard = () => {
   return (
     <div className="SignUpPage">

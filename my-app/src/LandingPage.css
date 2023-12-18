@@ -1,0 +1,34 @@
+/* Landing Page Styles */
+.landing-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-top: 2rem;
+  }
+  
+  /* Welcome Message Styles */
+  .welcome-message {
+    text-align: center;
+    margin-top: 1rem;
+    max-width: 90%;
+  }
+  
+  /* Login Card Styles */
+  .login-cardm {
+    max-width: 400px; /* Adjust the width as needed */
+    width: 100%;
+  }
+  .register-statment{
+    text-align: center;
+    margin-top: 1rem;
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+  }
+  .register-link{
+    margin-top: 0;
+    color:rgb(105, 99, 99);
+    text-decoration: underline;
+  }
