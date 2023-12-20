@@ -1,6 +1,7 @@
 import React from 'react';
-import './SignUpCard.css';
-import CompanyImage from './CompanyLogo.jpeg';
+import '../SignUpCard.css';
+import { Link } from 'react-router-dom';
+import CompanyImage from '../resources/CompanyLogo.jpeg';
 const SignUpCard = () => {
   return (
     <div className="SignUpPage">
@@ -23,6 +24,10 @@ const SignUpCard = () => {
           <button type="submit">Sign Up</button>
         </form>
       </div>
+      <div>
+        <p className='login-statment'>if you have an account </p>
+        <Link className="login-link" to="/">Login</Link>
+    </div>
     </div>
   );
 };

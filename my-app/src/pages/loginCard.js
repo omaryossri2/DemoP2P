@@ -1,6 +1,6 @@
 import React from 'react';
-import './LoginCard.css';
-import CompanyImage from './CompanyLogo.jpeg';
+import '../LoginCard.css';
+import CompanyImage from '../resources/CompanyLogo.jpeg';
 const LoginCard = () => {
   return (
     <div className='LoginPage'>
