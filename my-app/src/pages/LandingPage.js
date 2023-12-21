@@ -1,9 +1,7 @@
 import React from 'react';
-import '../LandingPage.css';
+import './style/LandingPage.css';
 import { Link } from 'react-router-dom';
 import LoginCard from './loginCard'; 
-import SignUpCard from './SignUpCard'; 
-import CompanyImage from '../resources/CompanyLogo.jpeg';
 
 function LandingPage() {
   return (

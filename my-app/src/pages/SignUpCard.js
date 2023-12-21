@@ -1,5 +1,5 @@
 import React from 'react';
-import '../SignUpCard.css';
+import './style/SignUpCard.css';
 import { Link } from 'react-router-dom';
 import CompanyImage from '../resources/CompanyLogo.jpeg';
 const SignUpCard = () => {

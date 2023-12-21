@@ -1,5 +1,5 @@
 import React from 'react';
-import '../LoginCard.css';
+import './style/LoginCard.css';
 import CompanyImage from '../resources/CompanyLogo.jpeg';
 const LoginCard = () => {
   return (
