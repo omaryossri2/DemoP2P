@@ -4,7 +4,6 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import LandingPage from './pages/LandingPage';
 import SignUpCard from './pages/SignUpCard';
-import LoginCard from './pages/loginCard';
 
 function App() {
   return (
