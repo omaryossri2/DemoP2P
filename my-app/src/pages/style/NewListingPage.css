@@ -3,9 +3,11 @@
     margin: 0 auto;
     margin-top: 4rem;
     padding: 20px;
+    height: 100 svh;
 }
 .header{
     font-size:x-large;
+    width: 100%;
 }
 .drop-container {
     position: relative;
@@ -57,4 +59,16 @@
     margin-top: 1rem;
     display: flex;
     flex-direction: row;
+  }
+  .comp-imagee{
+    width: 33%;
+    height:33%;
+    margin: 0;
+    margin-right: 1rem;
+  }
+  .logo-header{
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    margin-bottom: 1rem;
   }

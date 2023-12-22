@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import "./style/NewListingPage.css";
+import CompanyImage from '../resources/CompanyLogo.jpeg';
 
 const NewListingPage = () => {
   const [listingType, setListingType] = useState('');
@@ -35,14 +36,19 @@ const NewListingPage = () => {
 
   return (
     <div className='NewListingPage'>
-      <h1 className='header'>List a new book to sell</h1>
+      <div className='logo-header'>
+        <img src= {CompanyImage} className="comp-imagee" alt=""/>
+        <h1 className='header'>List something to sell📚</h1>
+      </div>
       <form onSubmit={handleSubmit}>
         <label htmlFor="listingType">Type of Listing</label>
         <select id="listingType" name="listingType" onChange={handleListingTypeChange} required>
           <option value="">Select</option>
-          <option value="teacherNotes">Teacher Notes</option>
-          <option value="teacherClassified">Teacher Classified</option>
-          <option value="pastPapers">Past Papers</option>
+          <option value="teacherNotes">IG Teacher Notes</option>
+          <option value="teacherClassified">IG Teacher Classified</option>
+          <option value="pastPapers">IG Past Papers</option>
+          <option value="nationalBook">National Books</option>
+          <option value="americanDiploma">American Diploma Books</option>
         </select>
         {listingType === 'teacherNotes' && (
           <>

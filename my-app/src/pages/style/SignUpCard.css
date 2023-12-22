@@ -6,6 +6,7 @@
     border: 1px solid #ccc;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 100 svh;
   }
   
   form {
@@ -40,7 +41,7 @@
     margin-top: 10rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10%;
-    margin-top: 4rem;
+    margin-top: 2rem;
   }
   .SignUpPage{
     display: flex;
