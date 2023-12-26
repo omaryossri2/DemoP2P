@@ -48,6 +48,7 @@ const ViewListings = () => {
     // Add more books
   ];
 
+  // eslint-disable-next-line no-unused-vars
   const [currentPage, setCurrentPage] = useState(1);
   const [searchTerm, setSearchTerm] = useState(""); // New state for search term
   const booksPerPage = 20;
