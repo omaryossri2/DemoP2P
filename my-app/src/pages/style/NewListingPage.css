@@ -23,6 +23,7 @@
     color: #444;
     cursor: pointer;
     transition: background .2s ease-in-out, border .2s ease-in-out;
+    margin-top: 1rem;
   }
   
   .drop-container:hover {
@@ -71,4 +72,21 @@
     flex-direction: row;
     max-width: 100%;
     margin-bottom: 1rem;
+  }
+  .view-button {
+    display: flex;
+    align-items:flex-end;
+    padding: 10px 20px; /* Increase the padding for a wider button */
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 1rem;
+  }
+  
+  .view-button:hover {
+    background-color: #2980b9;
   }

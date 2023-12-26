@@ -1,10 +1,14 @@
+// LoginCard.jsx
+
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './style/LoginCard.css';
 import CompanyImage from '../resources/CompanyLogo.jpeg';
+
 const LoginCard = () => {
   return (
     <div className='LoginPage'>
-      <img src= {CompanyImage} className="comp-image" alt=""/>
+      <img src={CompanyImage} className="comp-image" alt="" />
       <div className="login-card">
         <h2>Login</h2>
         <form>
@@ -14,7 +18,10 @@ const LoginCard = () => {
           <label htmlFor="password">Password:</label>
           <input type="password" id="password" name="password" required />
 
-          <button type="submit">Login</button>
+          {/* Use Link to navigate to the ViewListings page */}
+          <Link to="/viewListings">
+            <button className="submit-button" type="submit">Login</button>
+          </Link>
         </form>
       </div>
     </div>

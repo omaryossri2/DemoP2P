@@ -2,7 +2,7 @@
 .login-card {
   width: 250px;
   margin: 0 auto;
-  margin-top: 4rem;
+  margin-top: 2rem;
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 8px;
@@ -23,8 +23,8 @@ input {
   margin-bottom: 16px;
 }
 
-button {
-  padding: 10px;
+.button {
+  padding: px;
   background-color: #007bff;
   color: #fff;
   border: none;
@@ -46,4 +46,7 @@ button:hover {
 .LoginPage{
   display: flex;
   flex-direction: column;
+}
+.submit-button{
+  width: 100%;
 }

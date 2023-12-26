@@ -1,5 +1,5 @@
 .signup-card {
-    width: 250px;
+    width: 35svh;
     margin: 0 auto;
     margin-top: 4rem;
     padding: 20px;
@@ -35,7 +35,7 @@
   button:hover {
     background-color: #218838;
   }
-  .comp-image{
+  .comp-image2{
     max-width: 300px;
     margin: 0 auto;
     margin-top: 10rem;
@@ -65,4 +65,7 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 2rem;
+  }
+  .submit-button{
+    width: 100%;
   }
